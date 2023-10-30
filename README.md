@@ -1,5 +1,5 @@
 # matter.c
-A matrix library in C
+A single-file matrix library in C
 
 Example Usage:
 ```c
