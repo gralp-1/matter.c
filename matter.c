@@ -89,7 +89,7 @@ void MatSetPoint(Matrix *a, int col, int row, int val) {
 }
 
 // dot product of matrices
-Matrix MatDotMat(Matrix *a, Matrix *b) {
+Matrix MatMulMat(Matrix *a, Matrix *b) {
   Matrix newMatrix = InitMatrix(a->rows, b->cols);
   assert(a->cols == b->rows && "Non conformable for dot product");
 
